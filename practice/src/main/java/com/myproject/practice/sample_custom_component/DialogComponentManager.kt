@@ -4,6 +4,7 @@ import dagger.hilt.internal.GeneratedComponentManager
 import java.time.LocalDateTime
 import javax.inject.Inject
 
+
 class DialogComponentManager @Inject constructor(
     private val dialogComponentBuilder: DialogComponentBuilder
 ) : GeneratedComponentManager<DialogComponent> {
