@@ -1,7 +1,8 @@
-package com.myproject.practice.basic
+package com.myproject.practice
 
 import android.app.Application
 import android.util.Log
+import com.myproject.practice.basic.MyName
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 
