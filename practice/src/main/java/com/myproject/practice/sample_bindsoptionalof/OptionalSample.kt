@@ -1,0 +1,3 @@
+package com.myproject.practice.sample_bindsoptionalof
+
+class OptionalSample
