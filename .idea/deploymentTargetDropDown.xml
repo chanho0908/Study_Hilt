@@ -2,6 +2,21 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="BindsActivity">
+        <State />
+      </entry>
+      <entry key="BindsOptionalOfActivity">
+        <State />
+      </entry>
+      <entry key="MapMultiBindingActivity">
+        <State />
+      </entry>
+      <entry key="ProviderActivity">
+        <State />
+      </entry>
+      <entry key="SetMultiBindingActivity">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>

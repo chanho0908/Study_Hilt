@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HiltByCleanArchitecture"
+rootProject.name = "Hilt_Study_Basic"
 include(":app")
 include(":practice")

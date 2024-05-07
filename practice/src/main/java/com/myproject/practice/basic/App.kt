@@ -1,4 +1,4 @@
-package com.myproject.practice
+package com.myproject.practice.basic
 
 import android.app.Application
 import android.util.Log

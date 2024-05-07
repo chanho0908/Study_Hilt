@@ -2,13 +2,47 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name=".basic.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".App"
         android:theme="@style/Theme.HiltByCleanArchitecture">
+        <activity
+            android:name=".sample_custom_component.CustomComponentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_custom_component"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_entrypoint.EntryPointActivity"
+            android:exported="false"
+            android:label="@string/title_activity_entry_point"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_map_multibinding.MapMultiBindingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_set_multibinding.SetMultiBindingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_bindsoptionalof.BindsOptionalOfActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_binds.BindsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_provider.ProviderActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
+        <activity
+            android:name=".sample_lazy.SampleActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HiltByCleanArchitecture" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

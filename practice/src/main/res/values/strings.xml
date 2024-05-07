@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">practice</string>
+    <string name="title_activity_entry_point">EntryPointActivity</string>
+    <string name="title_activity_custom_component">CustomComponentActivity</string>
 </resources>
